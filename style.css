@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'NinjaNaruto';
+  src: url('assets/njnaruto.ttf') format('truetype');
+}
+
+
+*{
+    margin: 0;
+    font-family: 'NinjaNaruto', sans-serif;
+}
+
+.panel{
+    background-color: #0f1111;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+}
+
+.panel-name{
+    height: 90%;
+    width: 60%;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-weight: 500;
+}
+
+.panel-name a{
+    color: #F58220;
+}
+
+.panel-links a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.panel-links a:hover{
+    color: #F58220;
+    font-size: 0.8rem;
+}
+
+.hero{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 38rem;
+  flex-direction: column;
+  background: #F58220;
+}
+
+.hero-content{
+    height: 38rem;
+    width: 50%;
+    margin: 5rem 0 0 5rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1{
+    font-size: 5rem;
+}
+
+.hero-content p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero-image{
+    height: 38rem;
+    width: 40%;
+    background-image: url(assets/naruto-hero.png);
+    background-size: cover;
+}
+
+footer{
+    text-align: center;
+    background-color: #0f1111;
+    height: 5rem;
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+footer a{
+    color: #F58220;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    flex-direction: column;
+    background: #F58220;
+}
+
+.about-image{
+    height: 38rem;
+    width: 40%;
+    background-image: url(assets/naruto-about.png);
+    background-size: cover;
+    background-color: #F58220;
+}
+
+.about-content{
+    height: 38rem;
+    width: 50%;
+    margin: 5rem 0 0 5rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.about-content h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.about-content p{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    flex-direction: column;
+    background: #F58220;
+}
+
+.skills-content{
+    height: 38rem;
+    width: 50%;
+    margin: 2rem 0 0 7rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.skills-content h2{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.skills-content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.skills-image{
+    height: 38rem;
+    width: 40%;
+    background-image: url(assets/naruto-skills.png);
+    background-size: cover;
+    margin-right: 5rem;
+}
+
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    flex-direction: column;
+    background: #F58220;
+}
+
+.missions-section {
+    height: 100%;
+    width: 100%;
+  background: #111 url('assets/naruto-missions.png') no-repeat center center/cover;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.missions-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 3rem;
+}
+
+.missions-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  border-collapse: collapse;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.missions-table th, .missions-table td {
+  border: 1px solid #F58220;
+  padding: 12px;
+  text-align: left;
+}
+
+.missions-table th {
+  background-color: #222;
+  color: #F58220;
+}
+
+.missions-table td {
+  color: #cccccc;
+}
+
+.missions-table tr:nth-child(even) {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    flex-direction: column;
+    background: #F58220;
+}
+
+.team-image{
+    height: 38rem;
+    width: 55%;
+    background-image: url(assets/naruto-team.png);
+    background-size: cover;
+}
+
+.team-content{
+    height: 38rem;
+    width: 20%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    width: 80%;
+    height: 40%;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member p{
+    margin-top: 1rem;
+}

@@ -4,7 +4,6 @@ Welcome to **Naruto Uzumaki's Portfolio**, a fun and fictional website crafted u
 
 **## 🌐 Live Preview**
 
-*(Add your GitHub Pages link here once deployed)*  
 Example: [View Site](https://gadeyeshwanth.github.io/NarutoPortFolio/)
 
 ---

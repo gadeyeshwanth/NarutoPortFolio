@@ -11,11 +11,17 @@ Example: [View Site](https://gadeyeshwanth.github.io/NarutoPortFolio/)
 **## 📁 Project Structure**
 
 ├── index.html # Homepage
+
 ├── about.html # Naruto's bio and backstory
+
 ├── skills.html # Jutsu and transformation list
+
 ├── missions.html # Top 5 iconic missions
+
 ├── team.html # Team 7 members
+
 ├── style.css # Global styling and layout
+
 └── assets/ # All image and font files
 
 ---

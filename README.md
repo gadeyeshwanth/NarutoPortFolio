@@ -1,13 +1,16 @@
 **# 🌀 Naruto's Portfolio Website**
+
 Welcome to **Naruto Uzumaki's Portfolio**, a fun and fictional website crafted using HTML and CSS to showcase the life, skills, missions, and team of the Seventh Hokage — Naruto!
 
 **## 🌐 Live Preview**
+
 *(Add your GitHub Pages link here once deployed)*  
 Example: [View Site](https://gadeyeshwanth.github.io/NarutoPortFolio/)
 
 ---
 
 **## 📁 Project Structure**
+
 ├── index.html # Homepage
 ├── about.html # Naruto's bio and backstory
 ├── skills.html # Jutsu and transformation list
